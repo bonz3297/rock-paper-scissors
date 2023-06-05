@@ -38,18 +38,6 @@ function playRound(playerSelection, computerSelection) {
 	}
 }
 
-function game(roundsToWin) {
-	let round = '';
-
-	if (playerWins === roundsToWin) return alert('Player won the game!');
-	if (computerWins === roundsToWin) return alert('Computer won the game!');
-}
-
-// const gameBtn = document.querySelector('#game-btn');
-// gameBtn.addEventListener('click', (e) => {
-// 	game(5);
-// });
-
 let playerWins = 0;
 let computerWins = 0;
 let draws = 0;
